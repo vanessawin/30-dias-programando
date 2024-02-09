@@ -8,85 +8,99 @@
 </head>
 
 <body>
-<header>
-  <div id="container">
-    <nav>
-      <h1>codepay.</h1>
-      <ul>
-        <li>Inicio</li>
-        <li>Comprar</li>
-        <li>Contato</li>
-        <li>Ajuda</li>
-      </ul>
-    </nav>
-    <div id="actions">
-      <div id="accont">
-        <p id="accont">Conta <img src="/vanessawin/img/CaretDown.png" alt="Conta"></p>
-      </div>
-      <div id="cart">
-        <p id="cart">2 itens <img src="/vanessawin/img/ShoppingCart.png" alt="Cart"></p>
+  <header>
+    <div id="container">
+      <nav>
+        <h1>codepay.</h1>
+        <ul>
+          <li>Inicio</li>
+          <li>Comprar</li>
+          <li>Contato</li>
+          <li>Ajuda</li>
+        </ul>
+      </nav>
+      <div id="actions">
+        <div id="accont">
+          <p id="accont">Conta <img src="/vanessawin/img/CaretDown.png" alt="Conta"></p>
+        </div>
+        <div id="cart">
+          <p id="cart">2 itens <img src="/vanessawin/img/ShoppingCart.png" alt="Cart"></p>
+        </div>
       </div>
     </div>
-  </div>
-</header>
-<main>
-  <nav id="aside">
-    <ul>
-      <li><img src="/vanessawin/img/user.png" alt="user">Conta</li>
-      <li><img src="/vanessawin/img/package.png" alt="Envio">Envio</li>
-      <li><img src="/vanessawin/img/wallet.png" alt="Paganmentos">Pagamentos</li>
-    </ul>
-  </nav>
-  <section id="details-resume">
-    <div id="order-summary">
-      <div id="order">
-        <h1>Resumo do pedido</h1>
-        <div id="card-items">
-          <img src="/vanessawin/img/unsplash_wMT0oiL5XjA.png" alt="imagem do produto">
-          <div id="frame21">
-            <p>Mouse Gamer Redragon</p>
-            <div id="frame20">
-              <p>R$ <span>15,22</span> </p>
-              <div id="count">
-                <span id="decrease">
-                  <img src="/vanessawin/img/menos.png" alt="sinal de menos">
-                </span>
-                <span>2</span>
-                <span id="increase">
-                  <img src="/vanessawin/img/mais.png" alt="sinal de mais">
-                </span>
+  </header>
+  <main>
+    <nav id="aside">
+      <ul>
+        <li><img src="/vanessawin/img/user.png" alt="user">Conta</li>
+        <li><img src="/vanessawin/img/package.png" alt="Envio">Envio</li>
+        <li><img src="/vanessawin/img/wallet.png" alt="Paganmentos">Pagamentos</li>
+      </ul>
+    </nav>
+    <section id="details-resume">
+      <div id="detalhes-da-conta">
+        <h1>Detalhes da conta</h1>
+        <form>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="Email">
+          <label for="password">Senha</label>
+          <input type="password" id="password" name="Password">
+
+          <span>Registre - se para a conta</span> 
+          <button>Entrar</button>
+        </form>
+        <hr>
+        <a href="#">Cancelar Pedido</a>
+        <button>Continuar comprando</button>
+      </div>
+      <div id="order-summary">
+        <div id="order">
+          <h1>Resumo do pedido</h1>
+          <div id="card-items">
+            <img src="/vanessawin/img/unsplash_wMT0oiL5XjA.png" alt="imagem do produto">
+            <div id="frame21">
+              <p>Mouse Gamer Redragon</p>
+              <div id="frame20">
+                <p>R$ <span>15,22</span> </p>
+                <div id="count">
+                  <span id="decrease">
+                    <img src="/vanessawin/img/menos.png" alt="sinal de menos">
+                  </span>
+                  <span>2</span>
+                  <span id="increase">
+                    <img src="/vanessawin/img/mais.png" alt="sinal de mais">
+                  </span>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div id="others-info">
-        <form id="discount-coupon">
-          <input type="text" id="cupom-desconto" placeholder="Cupom de desconto">
-          <button>Aplicar</button>
-        </form>
-        <div id="table-price">
-          <div id="taxa">
-            <p>Taxa <span>R$ 3,45</span></p>
-            
-          </div>
-          <div id="shipping">
-            <p>Envio <span>Grátis</span></p>
-            
-          </div>
-          <div id="total">
-            <p>Total <span>R$ 30,44</span></p>
-            
+        <div id="others-info">
+          <form id="discount-coupon">
+            <input type="text" id="cupom-desconto" placeholder="Cupom de desconto">
+            <button>Aplicar</button>
+          </form>
+          <div id="table-price">
+            <div id="taxa">
+              <p>Taxa <span>R$ 3,45</span></p>
+            </div>
+            <div id="shipping">
+              <p>Envio <span>Grátis</span></p>
+
+            </div>
+            <div id="total">
+              <p>Total <span>R$ 30,44</span></p>
+
+            </div>
           </div>
         </div>
+
+
+
+
       </div>
-
-      
-
-
-    </div>
-  </section>
-</main>
+    </section>
+  </main>
 </body>
 
 </html>
