@@ -48,11 +48,43 @@
 
           <span>Registre - se para a conta</span> 
           <button>Entrar</button>
-        </form>
-        <hr>
-        <a href="#">Cancelar Pedido</a>
-        <button>Continuar comprando</button>
+        </form> 
       </div>
+
+
+      <div id="detalhes-do-envio">
+        <h1>Detalhes do envio</h1>
+        <form>
+          <label for="enderSalvo">Usar endereço salvo</label>
+         <select name="enderSalvo" id="enderSalvo" >
+          <option value="rua1">Rua 1</option>
+          <option value="rua2" selected>Rua 2, cidade dos sonhos</option>
+          <option value="rua3" disabled>Rua 3, cidade limpa</option>
+          <option value="rua4">Rua 4, ciadade organizada</option>
+         </select>
+
+         <label for="cidade">Cidade</label>
+         <input type="text" id="cidade" name="cidade">
+
+         <label for="ruaBairro">Rua, Bairro</label>
+         <input type="text" id="ruaBairro" name="ruaBairro">
+
+         <input type="text" name="numero" id="numero">
+
+         <select name="estado" id="estado">
+          <option value="Acre">Acre</option>
+          <option value="Alagoas">Alagoas</option>
+          <option value="Amapa">Amapá</option>
+          <option value="Sao Paulo" selected>São Paulo</option>
+          <option value="Rio de Janeiro">Rio de Janeiro</option>
+         </select>
+        </form>
+      </div>
+
+      <hr>
+      <a href="#">Cancelar Pedido</a>
+      <button>Continuar comprando</button>
+
       <div id="order-summary">
         <div id="order">
           <h1>Resumo do pedido</h1>
